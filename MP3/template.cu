@@ -10,7 +10,7 @@
       return -1;                                                          \
     }                                                                     \
   } while (0)
-#define TILE_WIDTH 8
+#define TILE_WIDTH 32
 // Compute C = A * B
 __global__ void matrixMultiplyShared(float *A, float *B, float *C,
                                      int numARows, int numAColumns,
